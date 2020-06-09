@@ -1,0 +1,28 @@
+{
+  "name": "ComunaBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusbdev/comuna-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusbdev/comuna-bot/issues"
+  },
+  "homepage": "https://github.com/gusbdev/comuna-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
